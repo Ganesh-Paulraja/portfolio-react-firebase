@@ -1,0 +1,31 @@
+.skills-wrap {
+  h1 {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 14px;
+  }
+  .gg-img-wrap {
+    img {
+      width: 40px;
+      display: inline-block;
+      margin-right: 5px;
+    }
+  }
+  .gg-sk-head {
+    color: #5332ec;
+    font-weight: 600;
+    font-size: 16px;
+    padding-top: 10px;
+  }
+  .gg-sk-text {
+    font-size: 14px;
+    margin-top: 8px;
+  }
+  .gg-card-box {
+    max-width: 250px;
+    text-align: center;
+    min-height: 204px;
+    background-color: #c8e7f0;padding: 10px;
+  }
+}

@@ -1,0 +1,51 @@
+@import '../../index.scss';
+
+.header-wrap {
+  background-color: $bg-wt;
+  display: flex;
+  padding: 8px 20px;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0;
+  max-width: 1600px;
+  .logo-wrap {
+    img {
+      width: 50px;
+    }
+  }
+  .nav-option {
+    margin: 0 auto;
+    display: flex;
+    li {
+      list-style-type: none;
+      padding-left: 30px;
+      a {
+        text-decoration: none;
+        color: $df-color;
+      }
+      a:hover {
+        color: $sp-color;
+      }
+    }
+  }
+  .cta-wrap {
+    a {
+      width: fit-content;
+      font-size: 16px;
+      text-decoration: none;
+      display: block;
+      border: 1px solid $sp-color;
+      color: $sp-color;
+      border-radius: 5px;
+      padding: 6px 12px;
+      font-weight: 600;
+    } 
+    a:hover {
+      background-color: $sp-color;
+      color: #ffffff;
+    }
+  }
+}

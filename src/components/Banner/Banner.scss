@@ -1,0 +1,52 @@
+.gg-banner-wrap {
+  display: flex;
+  .gg-left {
+    width: 50%;
+    img {
+      width: 100%;
+    }
+  }
+  .gg-right {
+    width: 50%;
+    padding-top: 50px;
+    padding-left: 15px;
+  }
+  h2 {
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 12px;
+  }
+  h1 {
+    color: #5132ee;
+    padding-bottom: 15px;
+    font-size: 50px;
+    span {
+      color: black;
+    }
+  }
+  p {
+    font-size: 16px;
+    max-width: 500px;
+    line-height: 1.4;
+  }
+  .gg-btn-wrap {
+    padding-top: 20px;
+    a {
+      font-size: 17px;
+      background-color: #5332ec;
+      color: #ffffff;
+      text-decoration: none;
+      display: inline-block;
+      padding: 8px 20px;
+      border-radius: 5px;
+    }
+  }
+  @media screen and (max-width: 700px) {
+    flex-direction: column;
+    .gg-right, .gg-left {
+      width: 100%;
+      padding-top: 0;
+    }
+  }
+}
