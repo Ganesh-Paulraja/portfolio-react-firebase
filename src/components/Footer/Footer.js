@@ -28,13 +28,13 @@ ganeshpaulraja@gmail.com
       </a>
       </div>
       <div className="social-wrap">
-        <a href="https://github.com/Ganesh-Paulraja">
+        <a href="https://github.com/Ganesh-Paulraja" target='_blank' rel="noreferrer">
           <img src={githubImage} alt="github" />
         </a>
-        <a href="https://www.linkedin.com/in/ganesh-p-4aa657215/">
+        <a href="https://www.linkedin.com/in/ganesh-p-4aa657215/" target='_blank' rel="noreferrer">
           <img src={linkedImage} alt="linkedin" />
         </a>
-        <a href="https://www.instagram.com/developer_ganesh/">
+        <a href="https://www.instagram.com/developer_ganesh/" target='_blank' rel="noreferrer">
           <img src={instaImage} alt="instagram" />
         </a>
       </div>

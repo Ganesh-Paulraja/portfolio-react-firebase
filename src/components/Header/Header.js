@@ -29,19 +29,19 @@ export default function Header() {
         <div className="close-icon" onClick={handleCloseClick}>
           <img src={closeIcon} alt="close" />
         </div>
-      <ul className='nav-option'>
+      <ul className='nav-option' >
         <li>
-          <Link to="/">Home</Link>
+          <Link to="/" onClick={handleCloseClick}>Home</Link>
         </li>
         <li>
-        <Link to="/projects"  >Projects</Link>
+        <Link to="/projects"  onClick={handleCloseClick}>Projects</Link>
         </li>
         <li>
-        <Link to="/about">About me</Link>
+        <Link to="/about" onClick={handleCloseClick}>About me</Link>
         </li>
         
       </ul>
-      <div className="cta-wrap">
+      <div className="cta-wrap" onClick={handleCloseClick}>
         <a href="#footer">
           Contact Me
         </a>

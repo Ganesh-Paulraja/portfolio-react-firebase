@@ -1,0 +1,72 @@
+.project-wrap {
+  min-height: calc(100vh - 266px);
+  .swiper-wrapper {
+    margin: 0 auto;
+    width: fit-content;
+  }
+  .gg-head {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 14px;
+    padding-bottom: 20px;
+    padding-top: 15px;
+  }
+  h1 {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 14px;
+    padding-bottom: 20px;
+    padding-top: 15px;
+  }
+  .gg-img-wrap {
+    img {
+      width: 100%;
+      display: inline-block;
+      margin-right: 5px;
+    }
+  }
+  .gg-sk-head {
+    color: #5332ec;
+    font-weight: 600;
+    font-size: 16px;
+    padding-top: 10px;
+    a {
+      text-decoration: none;
+    }
+  }
+  .gg-sk-text {
+    font-size: 14px;
+    margin-top: 8px;
+  }
+  .gg-card-wrap {
+    position: relative;
+    padding: 0 25px;
+    min-height: 470px;
+  }
+  .gg-card-box {
+    max-width: 250px;
+    text-align: center;
+    min-height: 451px;
+    background-color: #c8e7f0;
+    padding: 10px;
+    margin: 0 auto;
+  }
+  .gg-git-icon {
+    padding-top: 10px;
+    img {
+      width: 35px;
+    }
+  }
+  .swiper-button-next {
+    color: #000;
+    position: absolute;
+    right: -5px;
+  }
+  .swiper-button-prev {
+    color: #000;
+    position: absolute;
+    left: -5px;
+  }
+}
