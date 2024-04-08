@@ -1,6 +1,7 @@
 import React from 'react'
 import './Skills.scss'
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation } from 'swiper';
 import 'swiper/swiper-bundle.css'; 
 // imgs
 import htmlIcon from '../../images/icons/htmlImg.png'
@@ -13,17 +14,25 @@ import tailwindIcon from '../../images/icons/tailwind.png'
 import nodeIcon from '../../images/icons/nodejs.png'
 import expressIcon from '../../images/icons/express.png'
 import mongodbIcon from '../../images/icons/mongodb.png'
+// import rightArrow from '../../images/arrows/rightarrow.svg'
+// import leftArrow from '../../images/arrows/leftarrow.svg'
 
 export default function Skills() {
   const breakpoints = {
     50: {
+      slidesPerView: 1,
+    },
+    650: {
       slidesPerView: 2,
     },
-    550: {
+    900: {
       slidesPerView: 3,
     },
-    700: {
+    1200: {
       slidesPerView: 4,
+    },
+    1500: {
+      slidesPerView: 5,
     },
   };
   return (
@@ -34,8 +43,13 @@ export default function Skills() {
       <Swiper
         spaceBetween={0}
         slidesPerView={6}
+        modules={[Navigation]}
         breakpoints={breakpoints}
         direction='horizontal' 
+        navigation={{
+          nextEl: `.swiper-button-next-${123}`,
+          prevEl: `.swiper-button-prev-${123}`,
+        }}
       >
         <SwiperSlide>
       <div className="gg-card-box">
@@ -122,6 +136,12 @@ Node js, Express js
         </div>
         </SwiperSlide>
         </Swiper>
+        <div className={`swiper-button-next swiper-button-next-${123}`}>
+        {/* <img src={rightArrow} alt='next' /> */}
+      </div>
+      <div className={`swiper-button-prev swiper-button-prev-${123}`}>
+        {/* <img src={leftArrow} alt='previous' /> */}
+      </div>
       </div>
     </div>
   )

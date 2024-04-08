@@ -1,0 +1,47 @@
+.footer-wrap {
+  text-align: center;
+  background-color: #fff;
+  padding-top: 30px;
+  margin-top: 30px;
+  .phone {
+    span {
+      display: inline-block;
+      padding-right: 5px;
+      img {
+        width: 20px;
+        transform: translateY(2px);
+      }
+    }
+    a {
+      color: #000000;
+      text-decoration: none;
+      font-size: 24px;
+      font-weight: 600;
+    }
+  }
+  .mail {
+    a {
+      color: #000000;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: 500;
+    }
+    span {
+      display: inline-block;
+      padding-right: 5px;
+      transform: translateY(7px);
+    }
+    
+  }
+  .social-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    gap: 10px;
+    img {
+      width: 25px;
+    }
+  }
+}

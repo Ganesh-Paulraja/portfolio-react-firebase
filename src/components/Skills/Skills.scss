@@ -1,9 +1,12 @@
 .skills-wrap {
+  padding-bottom: 35px;
   h1 {
     font-size: 30px;
     font-weight: 700;
     text-align: center;
     margin-top: 14px;
+    padding-bottom: 20px;
+    padding-top: 15px;
   }
   .gg-img-wrap {
     img {
@@ -22,10 +25,25 @@
     font-size: 14px;
     margin-top: 8px;
   }
+  .gg-card-wrap {
+    position: relative;
+    padding: 0 25px;
+  }
   .gg-card-box {
     max-width: 250px;
     text-align: center;
     min-height: 204px;
     background-color: #c8e7f0;padding: 10px;
+    margin: 0 auto;
+  }
+  .swiper-button-next.swiper-button-next-123 {
+    color: #000;
+    position: absolute;
+    right: -5px;
+  }
+  .swiper-button-prev.swiper-button-prev-123 {
+    color: #000;
+    position: absolute;
+    left: -5px;
   }
 }

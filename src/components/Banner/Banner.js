@@ -13,7 +13,7 @@ export default function Banner() {
  <h1>Frotend <br /> <span> Developer</span></h1>
  <p>As a developer skilled in React.js, I specialize in crafting dynamic user interfaces that seamlessly integrate with MongoDB and Node.js, enabling the creation of powerful and scalable full-stack web applications.</p>
  <div className="gg-btn-wrap">
- <a href="" className='gg-get-touch'>
+ <a href="#footer" className='gg-get-touch'>
   Get in Touch
  </a>
  </div>

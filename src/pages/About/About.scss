@@ -1,4 +1,7 @@
-.gg-banner-wrap {
+.about-page {
+  min-height: calc(100vh - 166px);
+}
+.about-wrap {
   display: flex;
   .gg-left {
     width: 50%;
