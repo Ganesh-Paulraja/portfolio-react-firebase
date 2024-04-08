@@ -22,10 +22,10 @@ export default function Header() {
       <Link to="/"> <img src={logIcon} alt="developer" /></Link>
        
       </div>
-      <div className="gg-overlay" onClick={handleCloseClick}>
+      <div className={openMenu ? 'gg-overlay show-overlay': 'gg-overlay'} onClick={handleCloseClick}>
 
       </div>
-      <div className='nav-wrap'>
+      <div className={openMenu ? 'nav-wrap open-wrap' : 'nav-wrap'}>
         <div className="close-icon" onClick={handleCloseClick}>
           <img src={closeIcon} alt="close" />
         </div>
